@@ -44,4 +44,11 @@ filetype plugin indent on    " required
 "
 set number relativenumber
 set hlsearch
-set expandtab ts=4 sw=4 ai
+set expandtab 
+set tabstop=4
+set shiftwidth=4
+set autoindenting
+
+let g:python_highlight_all = 1
+filetype plugin indent on
+syntax on
